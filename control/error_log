@@ -1,0 +1,206 @@
+[22-Oct-2019 21:25:48 America/Sao_Paulo] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Upload has a deprecated constructor in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 2
+[22-Oct-2019 21:25:48 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/descom29/public_html/saboresdomundo/src/Util.php:2) in /home1/descom29/public_html/saboresdomundo/control/usuario.php on line 106
+[22-Oct-2019 21:25:48 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home1/descom29/public_html/saboresdomundo/control/usuario.php on line 110
+[22-Oct-2019 21:25:48 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/src/Util.php:2) in /home1/descom29/public_html/saboresdomundo/control/usuario.php on line 111
+[22-Oct-2019 21:25:48 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/descom29/public_html/saboresdomundo/src/Util.php:2) in /home1/descom29/public_html/saboresdomundo/control/usuario.php on line 111
+[22-Oct-2019 21:25:48 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/src/Util.php:2) in /home1/descom29/public_html/saboresdomundo/control/usuario.php on line 133
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:56:53 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:56:57 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/src/Util.php:451) in /home1/descom29/public_html/saboresdomundo/control/receita.php on line 77
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'titulo' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 451
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'msg' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 452
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'icon' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 453
+[22-Oct-2019 21:57:32 America/Sao_Paulo] PHP Warning:  Illegal string offset 'link_red' in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 454
+[22-Oct-2019 21:57:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/src/Util.php:451) in /home1/descom29/public_html/saboresdomundo/control/receita.php on line 77
+[23-Oct-2019 07:21:18 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 455
+[23-Oct-2019 07:21:18 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 455
+[23-Oct-2019 07:21:18 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 414
+[23-Oct-2019 07:21:18 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 813
+[23-Oct-2019 07:21:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unsupported format:  in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:266
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(329): SimpleImage->generate(NULL, 100)
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(51): SimpleImage->toFile('../foto_receita...')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 266
+[23-Oct-2019 18:02:52 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 455
+[23-Oct-2019 18:02:52 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 455
+[23-Oct-2019 18:02:52 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 414
+[23-Oct-2019 18:02:52 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 813
+[23-Oct-2019 18:02:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unsupported format:  in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:266
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(329): SimpleImage->generate(NULL, 100)
+#1 /home1/descom29/public_html/saboresdomundo/control/pais.php(36): SimpleImage->toFile('../images/icon-...')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 266
+[24-Oct-2019 19:05:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpY3uMfO')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpY3uMfO')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[27-Oct-2019 10:36:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpeczgie')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpeczgie')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[27-Oct-2019 10:47:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/descom29/public_html/saboresdomundo/control/receita.php on line 60
+[27-Oct-2019 10:47:26 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/control/receita.php:60) in /home1/descom29/public_html/saboresdomundo/control/receita.php on line 77
+[27-Oct-2019 10:49:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home1/descom29/public_html/saboresdomundo/control/receita.php on line 60
+[27-Oct-2019 10:49:29 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/control/receita.php:60) in /home1/descom29/public_html/saboresdomundo/control/receita.php on line 77
+[27-Oct-2019 10:50:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpLd17H3')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpLd17H3')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[27-Oct-2019 10:54:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpasGcp0')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpasGcp0')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[01-Nov-2019 21:08:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpxjyGro')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpxjyGro')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[02-Nov-2019 13:11:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpkJHVpr')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpkJHVpr')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[02-Nov-2019 13:25:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpwDsmoc')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpwDsmoc')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[02-Nov-2019 13:42:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/phpNVYQqc')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/phpNVYQqc')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153
+[02-Nov-2019 18:44:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromwebp() in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php:153
+Stack trace:
+#0 /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php(55): SimpleImage->fromFile('/tmp/php4vppVv')
+#1 /home1/descom29/public_html/saboresdomundo/control/images.php(23): SimpleImage->__construct('/tmp/php4vppVv')
+#2 {main}
+  thrown in /home1/descom29/public_html/saboresdomundo/src/SimpleImage.php on line 153

@@ -1,0 +1,232 @@
+[22-Oct-2019 21:25:14 America/Sao_Paulo] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Upload has a deprecated constructor in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 2
+[22-Oct-2019 21:25:21 America/Sao_Paulo] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Upload has a deprecated constructor in /home1/descom29/public_html/saboresdomundo/src/Util.php on line 2
+[24-Oct-2019 17:14:38 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/descom29/public_html/saboresdomundo/exibe_receita.php:14) in /home1/descom29/public_html/saboresdomundo/topo.php on line 5
+[24-Oct-2019 17:14:47 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/descom29/public_html/saboresdomundo/exibe_receita.php:14) in /home1/descom29/public_html/saboresdomundo/topo.php on line 5
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:31 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:18:37 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:53 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[24-Oct-2019 20:19:55 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[24-Oct-2019 17:20:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/descom29/public_html/saboresdomundo/exibe_receita.php:14) in /home1/descom29/public_html/saboresdomundo/topo.php on line 5
+[24-Oct-2019 17:37:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home1/descom29/public_html/saboresdomundo/topo.php on line 6
+[24-Oct-2019 17:38:19 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/descom29/public_html/saboresdomundo/exibe_receita.php:14) in /home1/descom29/public_html/saboresdomundo/topo.php on line 5
+[24-Oct-2019 22:58:46 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/topo.php:26) in /home1/descom29/public_html/saboresdomundo/cadastro_receita.php on line 5
+[24-Oct-2019 23:01:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/topo.php:26) in /home1/descom29/public_html/saboresdomundo/cadastro_receita.php on line 5
+[25-Oct-2019 21:00:02 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/descom29/public_html/saboresdomundo/exibe_receita.php on line 404
+[27-Oct-2019 13:03:48 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/descom29/public_html/saboresdomundo/topo.php:26) in /home1/descom29/public_html/saboresdomundo/cadastro_receita.php on line 5
+[28-Oct-2019 17:12:06 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/descom29/public_html/saboresdomundo/exibe_receita.php on line 409

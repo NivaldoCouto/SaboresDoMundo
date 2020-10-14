@@ -1,0 +1,5 @@
+# BEGIN custom php.ini PHP52
+<IfModule mod_suphp.c>
+    suPHP_ConfigPath /home1/descom29/public_html/saboresdomundo
+</IfModule>
+# END custom php.ini

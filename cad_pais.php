@@ -1,0 +1,235 @@
+<?php 
+    include 'topo.php';
+?>
+
+<?php
+
+error_reporting(0);
+ini_set(“display_errors”, 0 );
+
+
+if(isset($_SESSION['id_user'])){
+    $logado = 1; 
+}else{
+    session_start();
+
+    if(isset($_SESSION['id_user'])){
+        $user = new Usuario();
+
+        $user->selectUserId($_SESSION['id_user']);
+    }else{
+        header('Location: index.php');
+        die();
+    }
+}
+
+// if($_SESSION['id_user'] != 1){
+//     header('Location: home.php');
+//     die();
+// }
+?>
+
+<!-- INCLUIR OU CRIAR AQUI SEUS ESTILOS -->
+<style>
+    img#perfil {
+        margin-top: 10%;
+    }
+
+    div#menu {
+        text-align: center;
+    }
+
+    a.list-group-item {
+        text-align: left;
+    }
+
+    .hide{
+        display: none;
+    }
+
+</style>
+
+<!-- CRIAR AQUI O HTML DA SUA PAGINA -->
+<div class="container">
+    <!-- Card -->
+    <div class="card testimonial-card" style="margin-top: 4%;">
+
+        <!-- Background color -->
+        <div class="card-up indigo lighten-1"></div>
+
+        <!-- Content -->
+        <div class="card-body">
+            <!-- Name -->
+            <h4 class="card-title">Cadastro de Pais</h4>
+            <hr>
+            <!-- Card -->
+            <div class="card">
+                <!-- Card body -->
+                <div class="card-body">
+                    <div class="table table-editable" style="overflow:scroll;height:400px;width:100%;overflow:auto">
+                       <!--  <span class="table-add mb-3 mr-2">
+                            <a style="font-size: 24px; font-weight: 500; color: #000;">Modo de Preparo</a>
+                        </span> -->
+                        <a class="table-add text-success float-right fas fa-plus fa-2x" aria-hidden="true" tabela="modo-preparo"></a>
+
+                        <input type="text" name="id-pais" class="hide">
+                        <table class="table table-bordered table-responsive-md table-striped text-center" id="modo-preparo">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">País</th>
+                                    <th class="text-center">Localidade</th>
+                                    <th class="text-center">Icone (128pxX128px)</th>
+                                    <th class="text-center">Ação</th>
+                                    <th class="text-center">Excluir</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                    $randomic = rand(11111,99999);
+                                ?>
+
+                                <tr class="hide">
+                                    <form class="text-center" action="control/pais.php" method="POST" enctype="multipart/form-data" id="<?php echo($randomic);?>"></form>
+                                    <input class="hide" type="text" name="id-pais" value="-1" form="<?php echo($randomic);?>">
+                                    <td class="pt-3-half"><input class="form-control" type="text" name="pais" form="<?php echo($randomic);?>"  placeholder="Nome do País"></td>
+                                    <td class="pt-3-half"><input class="form-control" type="text" name="localidade" form="<?php echo($randomic);?>"  placeholder="Localidade"></td>
+                                    <td class="pt-3-half"> 
+                                        <div class="form-group custom-file">
+                                            <input type="file" class="custom-file-input" name="icone_pais" accept="image/*" form="<?php echo($randomic);?>">
+                                            <label class="custom-file-label" for="adicionar-foto" data-browse="Galeria" style="text-align: left;">
+                                                Selecione o Icone
+                                            </label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="table-change hide"><input type="button"class="btn btn-warning btn-rounded btn-sm my-0" value="Alterar"></span>
+                                        <span class="table-save"><input type="submit" name="action" form="<?php echo($randomic);?>" class="btn btn-success btn-rounded btn-sm my-0" value="Salvar"></span>
+                                    </td>
+                                    <td>
+                                        <span><input type="submit" form="<?php echo($randomic);?>" name="action" class="btn btn-danger btn-rounded btn-sm my-0" value="Remove"></span>
+                                    </td>
+                                </tr>
+
+                                <?php 
+
+                                $pais = new Pais();
+
+                                $paises = $pais->selectAll();
+
+                                foreach ($paises as $key => $value) {
+
+                                    $randomic = rand(11111,99999);
+                                    ?>
+                                    <tr>
+                                        <form class="text-center" action="control/pais.php" method="POST" enctype="multipart/form-data" id="<?php echo($randomic);?>"></form>
+                                        <input class="hide" type="text" name="id-pais" value="<?php echo($value->getId());  ?>" form="<?php echo($randomic);?>">
+                                        <td class="pt-3-half"><input disabled class="form-control" required type="text" name="pais" form="<?php echo($randomic);?>" placeholder="Nome do País" value="<?php echo($value->getNome());  ?>"></td>
+                                        <td class="pt-3-half"><input disabled class="form-control" required type="text" name="localidade" form="<?php echo($randomic);?>"  placeholder="Localidade" value="<?php echo($value->getLocalidade());  ?>"></td>
+                                        <td class="pt-3-half"> 
+                                            <div class="form-group custom-file">
+                                                <input type="file" class="custom-file-input" name="icone_pais" accept="image/*" form="<?php echo($randomic);?>">
+                                                <label class="custom-file-label" for="adicionar-foto" data-browse="Galeria" style="text-align: left;">
+                                                    Selecione o Icone
+                                                </label>
+                                            </div>
+                                            
+                                        </td>
+                                        <td>
+                                            <span class="table-change"><input type="button"class="btn btn-warning btn-rounded btn-sm my-0" value="Alterar"></span>
+                                            <span class="table-save hide"><input type="submit" name="action" class="btn btn-success btn-rounded btn-sm my-0" value="Salvar" form="<?php echo($randomic);?>"></span>
+                                        </td>
+                                        <td>
+                                            <span><input type="submit" name="action" class="btn btn-danger btn-rounded btn-sm my-0" value="Remove" form="<?php echo($randomic);?>"></span>
+                                        </td>
+                                    </tr>
+                                    <?php
+                                }
+
+                                ?>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Card -->
+            </div>
+
+        </div>
+        <!-- Card -->
+    </div>
+
+    <?php
+    include 'rodape.php';
+    ?>
+
+    <!-- FAZER AQUI A INCLUSAO DE SCRIPTS OU SEUS PROPIOS SCRIPTS -->
+    <script>
+
+        $(document).ready(function(){
+            $('a[href="cad_pais.php"]').addClass('active');
+
+            $(document).ready(function(){
+                $('a[href="cad_pais.php"]').parents('li').addClass('ativo');
+            });
+
+            const $tableID = $('.table');
+
+            $(document).on('click', 'span.table-change', function(){
+
+                $(this).addClass('hide');
+                $(this).parents('td').find('> span.table-save').removeClass('hide');
+
+                $(this).parents('tr').find('input[disabled]').each(function(){
+                    $(this).removeAttr('disabled');
+                });
+            });
+
+            $(document).on('click', 'a.table-add', function(){
+
+                var table = $(this).attr('tabela');
+                var tabela = $('table#'+table);
+
+                var $clone = tabela.find('> tbody > tr.hide').clone(true).removeClass('hide');
+
+                $clone.find('input').each(function(){
+                    $(this).attr('required', 'true');
+                });
+
+                tabela.find('> tbody').append($clone);
+            });
+
+            $tableID.on('click', '.table-remove', function() {
+                $(this).parents('tr').detach();
+            });
+
+            <?php
+            if (isset($_GET['status']) && $_GET['status'] == 1) {
+
+                isset($_SESSION['msg']) ? $msg = $_SESSION['msg'] : $msg = '';
+                ?>
+                Swal.fire(
+                    '<?php echo ($msg); ?>',
+                    '',
+                    'success'
+                );
+            <?php
+            } elseif (isset($_GET['status']) && $_GET['status'] == 0) {
+
+                isset($_SESSION['msg']) ? $msg = $_SESSION['msg'] : $msg = '';
+                ?>
+                Swal.fire(
+                    '<?php echo ($msg); ?>',
+                    '',
+                    'error'
+                );
+            <?php
+            }
+
+            ?>
+        });
+
+    </script>
+</div>
+
+</div>
+<!--Main layout-->
