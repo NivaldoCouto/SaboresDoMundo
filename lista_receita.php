@@ -46,7 +46,7 @@ include 'topo.php';
                     isset($_SESSION['id_user']) ? $user = $_SESSION['id_user'] : $user = -1;
                     $receita_aux = new Receita();
 
-                    $aux = $receita_aux->executeQuery('SELECT * FROM `receita` WHERE `usuario` = '.$user);
+                    $aux = $receita_aux->executeQuery('SELECT * FROM `receita` WHERE `status` = 0 AND `usuario` = '.$user);
 
                     monta_lista_receita($aux);
                     break;
@@ -57,7 +57,7 @@ include 'topo.php';
 
                     $receita = new Receita();
 
-                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` INNER JOIN `pais` ON `receita`.`pais` = `pais`.`id` WHERE `pais`.`id` = '.$id_pais);
+                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` INNER JOIN `pais` ON `receita`.`pais` = `pais`.`id` WHERE `receita`.`status` = 0 AND `pais`.`id` = '.$id_pais);
 
                     monta_lista_receita($aux);
                     break;
@@ -67,7 +67,7 @@ include 'topo.php';
 
                     $receita = new Receita();
 
-                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` INNER JOIN `categoria` ON `receita`.`categoria` = `categoria`.`id` WHERE `categoria`.`id` = '.$id_categoria);
+                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` INNER JOIN `categoria` ON `receita`.`categoria` = `categoria`.`id` WHERE `receita`.`status` = 0 AND `categoria`.`id` = '.$id_categoria);
 
                     monta_lista_receita($aux);
                     break;
@@ -75,7 +75,7 @@ include 'topo.php';
                 case 'top_receita':
                     $receita = new Receita();
 
-                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` LEFT JOIN (SELECT AVG(`avaliacao`) AS media, receita AS id_aux FROM `avaliacao` GROUP BY `receita` ORDER BY media DESC) AS aux_receita ON receita.id = aux_receita.id_aux ORDER BY aux_receita.media DESC');
+                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` LEFT JOIN (SELECT AVG(`avaliacao`) AS media, receita AS id_aux FROM `avaliacao` GROUP BY `receita` ORDER BY media DESC) AS aux_receita ON receita.id = aux_receita.id_aux WHERE `receita`.`status` = 0 ORDER BY aux_receita.media DESC');
 
                     monta_lista_receita($aux);
                     break;
@@ -85,7 +85,7 @@ include 'topo.php';
 
                     $receita = new Receita();
 
-                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` INNER JOIN `receita_favorita` ON `receita`.`id` = `receita_favorita`.`receita`  WHERE `receita_favorita`.`usuario` = '.$user);
+                    $aux = $receita->executeQuery('SELECT `receita`.* FROM `receita` INNER JOIN `receita_favorita` ON `receita`.`id` = `receita_favorita`.`receita`  WHERE `receita`.`status` = 0 AND `receita_favorita`.`usuario` = '.$user);
 
                     monta_lista_receita($aux);
                     break;

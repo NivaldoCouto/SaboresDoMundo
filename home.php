@@ -24,7 +24,7 @@ require 'topo.php';
 	<?php 
 
 		$receita = new Receita();
-		$aux = $receita->executeQuery('SELECT * FROM `receita` ORDER BY `receita`.`id` DESC');
+		$aux = $receita->executeQuery('SELECT * FROM `receita` WHERE `status` = 0 ORDER BY `receita`.`id` DESC');
 		monta_lista_receita($aux);
 	?>
 </div>
