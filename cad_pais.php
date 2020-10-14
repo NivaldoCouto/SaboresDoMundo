@@ -60,7 +60,7 @@ if(isset($_SESSION['id_user'])){
         <!-- Content -->
         <div class="card-body">
             <!-- Name -->
-            <h4 class="card-title">Cadastro de Pais</h4>
+            <h4 class="card-title">Cadastro de País</h4>
             <hr>
             <!-- Card -->
             <div class="card">

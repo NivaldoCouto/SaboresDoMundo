@@ -44,13 +44,8 @@ if(isset($_SESSION['id_user'])){
     <div class="card testimonial-card">
 
         <!-- Background color -->
-        <div class="card-up indigo lighten-1"></div>
-
-        <!-- Avatar -->
-        <div class="avatar mx-auto white">
-            <img src="img/perfil-sem-foto.png" id="perfil" class="rounded-circle" alt="woman avatar">
-        </div>
-
+        <div class="card-up indigo lighten-1"></div> 
+        
         <!-- Content -->
         <div class="card-body">
             <!-- Name -->

@@ -348,7 +348,7 @@ include 'src/Util.php';
 							?>
 							<li class="nav-item suspenso">
 								<a href="cad_pais.php" class="nav-link waves-effect bold-1">
-									<i class="fas fa-plus mr-3"></i>Cadastrar Pais
+									<i class="fas fa-plus mr-3"></i>Cadastrar País
 								</a>
 							</li>
 							<?php
@@ -465,7 +465,7 @@ include 'src/Util.php';
 					if(isset($_SESSION['id_user']) && $_SESSION['id_user'] == 1){
 						?>
 						<a href="cad_pais.php" class="list-group-item list-group-item-action waves-effect">
-							<i class="fas fa-plus mr-3"></i>Cadastrar Pais
+							<i class="fas fa-plus mr-3"></i>Cadastrar País
 						</a>
 						<?php
 					}

@@ -146,7 +146,7 @@
 		<div class="modal-content text-center">
 			<!--Header-->
 			<div class="modal-header d-flex justify-content-center">
-				<p class="heading" style="font-size: 22px;">Lista de Paises</p>
+				<p class="heading" style="font-size: 22px;">Lista de PaÃ­ses</p>
 				<a class="close" data-dismiss="modal" aria-label="Close" id="botao_paises">
 					<span aria-hidden="true" style="color: #FFF;">&times;</span>
 				</a>
@@ -329,14 +329,14 @@
 
 	});
         
-        // Detecta se o dispositivo est«¡ no iOS
+        // Detecta se o dispositivo estï¿½ï¿½ï¿½ no iOS
 const isIos = () => {
   const userAgent = window.navigator.userAgent.toLowerCase();
   return /iphone|ipad|ipod/.test( userAgent );
 }
 // Detects if device is in standalone mode
 const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
-// Verifica se deve exibir notifica«®«ªo popup de instala«®«ªo:
+// Verifica se deve exibir notificaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½o popup de instalaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½o:
 if (isIos() && !isInStandaloneMode()) {
   this.setState({ showInstallMessage: true });
 }
