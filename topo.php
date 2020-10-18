@@ -22,10 +22,12 @@ include "src/Usuario.php";
 include "src/Receita.php";
 include 'src/FotoReceita.php';
 include 'src/Ingrediente.php';
+include 'src/Comentario.php';
 include 'src/IngredienteReceita.php';
 include 'src/Avaliacao.php';
 include 'src/ReceitaFavorita.php';
 include 'src/Util.php';
+
 
 ?>
 <!DOCTYPE html>
