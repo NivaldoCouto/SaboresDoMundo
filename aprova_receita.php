@@ -77,8 +77,19 @@ if (isset($_SESSION['id_user'])) {
             </div>
         </div>
     </div>
-</div>
 
-<?php
-include 'rodape.php';
-?>
+
+    <?php
+    include 'rodape.php';
+    ?>
+
+    <script>
+        $(document).ready(function() {
+            $('a[href="aprova_receita.php"]').addClass('active');
+        });
+
+        $(document).ready(function() {
+            $('a[href="aprova_receita.php"]').parents('li').addClass('ativo');
+        });
+    </script>
+</div>

@@ -10,8 +10,6 @@ class Receita{
     private $tempo_preparo;
     private $timestamp;
 
-
-    
     function __construct($id="", $titulo="", $modo_preparo="", $usuario="", $categoria="", $pais="", $tempo_preparo="", $timestamp="") {
         $this->id = $id;
         $this->titulo =  (addslashes($titulo));

@@ -214,6 +214,15 @@ $receita->selectReceitaId($_GET['id_receita']);
                     <?php
                     }
                     ?>
+
+                    <?php
+                    if (isset($_SESSION['id_user'])) {
+                    ?>
+                        <a href="#adicionar-comentario" class="btn btn-primary" data-toggle="modal" data-target="#adicionar-comentario">Adicionar Comentario</a>
+
+                    <?php
+                    }
+                    ?>
                 </div>
             </div>
 
@@ -264,6 +273,43 @@ $receita->selectReceitaId($_GET['id_receita']);
             </div>
         </div>
     </div>
+
+    <div class="card" style="margin-top: 45px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-12" align="center">
+                    <p style="font-size: 24px; font-weight: bold;">Comentarios</p>
+                </div>
+
+                <?php
+
+                $comentario = new Comentario();
+
+                $comentarios = $comentario->selectComentarioId($receita->getId());
+
+                if (!empty($comentarios)) {
+                    foreach ($comentarios as $value) {
+                ?>
+                        <div class="col-sm-12 destaque" style="padding-left: 5%">
+                            <h5> <strong><?php echo $value['nome_user'] ?></strong></h5>
+                            <p style="font-size: 15px;" class="text-left"><?php echo $value['comentario'] ?></p>
+                        </div>
+                        <br>
+
+                    <?php
+                    }
+                } else {
+                    ?>
+                    <div class="col-sm-12 destaque" style="padding-left: 5%">
+                        <h5> <strong>ESTÁ RECEITA AINDA NÃO POSSUI COMENTARIOS</strong></h5>
+                    </div>
+                <?php
+
+                }
+                ?>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="modal fade top" id="adicionar-foto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria="true" data-backdrop="true">
@@ -292,6 +338,36 @@ $receita->selectReceitaId($_GET['id_receita']);
                             </button>
                         </div>
 
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade top" id="adicionar-comentario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria="true" data-backdrop="true">
+    <div class="modal-dialog modal-notify modal-info" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body">
+                <button type="button" class="close black-text" data-dismiss="modal" aria-label="Close">
+                    <span aria="true">&times;</span>
+                </button>
+                <div class="row d-flex justify-content-center align-items-center" align="center">
+                    <form action="control/comentario.php" method="POST">
+                        <input type="text" name="id-receita" style="display: none;" value="<?php echo ($receita->getId()); ?>">
+                        <input type="text" name="id-user" style="display: none;" value="<?php echo $_SESSION['id_user']; ?>">
+                        <div class="form-group custom-file">
+                            <div class="form-group purple-border">
+                                <label for="exampleFormControlTextarea4">Comentario Aqui</label>
+                                <textarea class="form-control" id="text-comentario" name="text-comentario" rows="6" cols="50"></textarea>
+                            </div>
+                            <button type="submit" name="envia_comentario" class="btn btn-success">
+                                Enviar
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
