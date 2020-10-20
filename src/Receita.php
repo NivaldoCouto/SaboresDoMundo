@@ -90,8 +90,8 @@ class Receita{
         if (empty($this->id)) {
             $conexao = new conexao();
             try {
-                $connect = $conexao->insertDB("INSERT INTO `receita`(`titulo`, `modo_preparo`, `usuario`, `categoria`, `pais`, `tempo_preparo`) "
-                        . "VALUES ('" . $this->titulo . "','".$this->modo_preparo."' ,'" . $this->usuario . "','" . $this->categoria . "','" . $this->pais . "','" . $this->tempo_preparo . "')");
+                $connect = $conexao->insertDB("INSERT INTO `receita`(`titulo`, `modo_preparo`, `usuario`, `categoria`, `pais`, `tempo_preparo`, `status`) "
+                        . "VALUES ('" . $this->titulo . "','".$this->modo_preparo."' ,'" . $this->usuario . "','" . $this->categoria . "','" . $this->pais . "','" . $this->tempo_preparo . "', 1)");
                 $this->id = $connect;
 
                 return $connect;

@@ -73,7 +73,7 @@
 
 		manda_notifica("SELECT * FROM `subscribers`", "Tem receita Fresquinha no Aplicativo !", "Venha ver a mais nova receita cadastrada no APP !", 'exibe_receita.php?id_receita='.$idReceita);
 
-		$_SESSION['msg'] = 'Sucesso ao Cadastrar Receita!';
+		$_SESSION['msg'] = 'Sucesso ao Cadastrar Receita, Pendente de Avaliação';
 		header('Location: ../exibe_receita.php?status=1&id_receita='.$idReceita);
 		die();
 	}elseif(isset($_GET['excluir-receita'])){

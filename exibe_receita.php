@@ -69,6 +69,11 @@ $receita->selectReceitaId($_GET['id_receita']);
             padding-bottom: 5% !important;
         }
     }
+
+    .comentario {
+        font-size: 15px;
+        float: left;
+    }
 </style>
 
 <!-- CRIAR AQUI O HTML DA SUA PAGINA -->
@@ -274,7 +279,7 @@ $receita->selectReceitaId($_GET['id_receita']);
         </div>
     </div>
 
-    <div class="card" style="margin-top: 45px;">
+    <div class="card" style="margin-top: 45px; background-color: #1577b11f;">
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-12" align="center">
@@ -290,11 +295,11 @@ $receita->selectReceitaId($_GET['id_receita']);
                 if (!empty($comentarios)) {
                     foreach ($comentarios as $value) {
                 ?>
-                        <div class="col-sm-12 destaque" style="padding-left: 5%">
+                        <div class="col-sm-12" style="padding-left: 5%;  border-bottom: 0.5px solid #00000014; margin-bottom: 10px;">
                             <h5> <strong><?php echo $value['nome_user'] ?></strong></h5>
-                            <p style="font-size: 15px;" class="text-left"><?php echo $value['comentario'] ?></p>
+                            <p class="text-left comentario"><?php echo $value['comentario'] ?></p>
+                            <p style="float: right;"><?php echo $value['timestamp'] ?></p>
                         </div>
-                        <br>
 
                     <?php
                     }

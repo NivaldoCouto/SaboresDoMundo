@@ -11,6 +11,7 @@ include '../src/Util.php';
 include '../src/Subscribers.php';
 include '../src/Comentario.php';
 
+session_start();
 
 if (isset($_POST['envia_comentario'])) {
     $comentario = $_POST['text-comentario'];
