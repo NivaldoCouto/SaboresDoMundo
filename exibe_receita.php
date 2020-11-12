@@ -283,7 +283,7 @@ $receita->selectReceitaId($_GET['id_receita']);
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-12" align="center">
-                    <p style="font-size: 24px; font-weight: bold;">Comentarios</p>
+                    <p style="font-size: 24px; font-weight: bold;">Comentários</p>
                 </div>
 
                 <?php

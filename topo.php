@@ -432,7 +432,7 @@ include 'src/Util.php';
 
 					<ul class="navbar-nav nav-flex-icons">
 						<li class="nav-item">
-							<a href="https://github.com/Lucas-Feitas/SaboresDoMundo" class="nav-link waves-effect" target="_blank">
+							<a href="https://github.com/NivaldoCouto/saboresdomundo" class="nav-link waves-effect" target="_blank">
 								<img src="images/github-brands.svg" width="26"> GitHub
 							</a>
 						</li>
