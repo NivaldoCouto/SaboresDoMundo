@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-ini_set(“display_errors”, 0 );
+ini_set(“display_errors”, 0);
 
 require 'topo.php';
 ?>
@@ -8,24 +8,28 @@ require 'topo.php';
 <!-- INCLUIR OU CRIAR AQUI SEUS ESTILOS -->
 <style>
 	.checked {
-	  color: orange!important;
+		color: orange !important;
 	}
 
-	 @media only screen and (max-width: 450px) {
-        main{
-            padding-top: 15%!important;
-            padding-bottom: 5%!important;
-        }
-    }
+	@media only screen and (max-width: 450px) {
+		main {
+			padding-top: 15% !important;
+			padding-bottom: 5% !important;
+		}
+	}
+
+	img.d-block {
+		max-height: 480px !important;
+	}
 </style>
 
 <!-- CRIAR AQUI O HTML DA SUA PAGINA -->
 <div class="container">
-	<?php 
+	<?php
 
-		$receita = new Receita();
-		$aux = $receita->executeQuery('SELECT * FROM `receita` WHERE `status` = 0 ORDER BY `receita`.`id` DESC');
-		monta_lista_receita($aux);
+	$receita = new Receita();
+	$aux = $receita->executeQuery('SELECT * FROM `receita` WHERE `status` = 0 ORDER BY `receita`.`id` DESC');
+	monta_lista_receita($aux);
 	?>
 </div>
 
@@ -35,8 +39,7 @@ require 'rodape.php';
 
 <!-- FAZER AQUI A INCLUSAO DE SCRIPTS OU SEUS PROPIOS SCRIPTS -->
 <script>
-
-	$(document).ready(function(){
+	$(document).ready(function() {
 		$('a[href="home.php"]').addClass('active');
 	});
 </script>
