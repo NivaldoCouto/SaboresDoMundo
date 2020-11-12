@@ -36,10 +36,9 @@ $receita->selectReceitaId($_GET['id_receita']);
 
     }
 
-    .destaque>b {
-        font-size: 26px;
-        text-transform: uppercase;
-        font-weight: bold;
+    .destaque>svg {
+        height: 10px;
+        width: 10px;
     }
 
     .checked {
@@ -68,6 +67,10 @@ $receita->selectReceitaId($_GET['id_receita']);
             padding-top: 20% !important;
             padding-bottom: 5% !important;
         }
+
+        #card_exibe {
+            margin-top: 0px !important;
+        }
     }
 
     .comentario {
@@ -78,8 +81,7 @@ $receita->selectReceitaId($_GET['id_receita']);
 
 <!-- CRIAR AQUI O HTML DA SUA PAGINA -->
 <div class="container">
-
-    <div class="card">
+    <div class="card" id="card_exibe" style="margin-top: -30px;">
         <!-- Card content -->
         <div class="card-body">
             <!--Carousel Wrapper-->
@@ -253,7 +255,11 @@ $receita->selectReceitaId($_GET['id_receita']);
                             $ingrediente = new Ingrediente();
                             $ingrediente->selectIngredienteId($value->getIngrediente());
                         ?>
-                            <li class="list-group-item destaque"><?php echo '<b>' . ($key + 1) . ' - </b>  ' . $value->getQuantidade() . ' ' . $ingrediente->getMedida() . ' de ' . $ingrediente->getNome(); ?></li>
+                            <li class="list-group-item destaque">
+                                <svg>
+                                    <circle cx="2" cy="2" r="2" stroke-width="3" fill="black" />
+                                </svg>
+                                <?php echo  $value->getQuantidade() . ' ' . $ingrediente->getMedida() . ' de ' . $ingrediente->getNome(); ?></li>
                         <?php
                         }
                         ?>
