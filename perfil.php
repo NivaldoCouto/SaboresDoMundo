@@ -87,7 +87,7 @@ if(isset($_SESSION['id_user'])){
                             <label for="senha" class="font-weight-light">Sua senha</label>
                         </div>
 
-                        <div class="text-center py-4 mt-3">;
+                        <div class="text-center py-4 mt-3">
                             <button class="btn btn-cyan deep-orange darken-1" name="update-usuario" type="submit">Registrar</button>
                         </div>
                     </form>

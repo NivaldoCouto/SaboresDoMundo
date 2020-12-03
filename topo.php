@@ -432,6 +432,14 @@ include 'src/Util.php';
 
 					<ul class="navbar-nav nav-flex-icons">
 						<li class="nav-item">
+							<a href="fale_conosco.php" class="nav-link waves-effect" target="_blank">
+								<img src="images/email-icon.png" width="26"> 
+							</a>
+						</li>
+					</ul>
+
+					<ul class="navbar-nav nav-flex-icons">
+						<li class="nav-item">
 							<a href="https://github.com/NivaldoCouto/saboresdomundo" class="nav-link waves-effect" target="_blank">
 								<img src="images/github-brands.svg" width="26"> GitHub
 							</a>

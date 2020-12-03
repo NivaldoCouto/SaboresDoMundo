@@ -215,7 +215,7 @@
 										<img src="<?php echo($value->getPath_icon()); ?>" class="rounded-circle hoverable" id="<?php echo($key) ?>" width="50">
 									</div>
 									<div class="col-sm-8 col-8" align="left">
-										<a class="dropdown-item" href="lista_receita.php?tipo=categoria&id=<?php echo($value->getId()); ?>" style="font-size: 20px; font-weight: bold;">
+										<a class="dropdown-item" href="lista_receita.php?tipo=categoria&id=<?php echo($value->getId()); ?>" style="font-size: 20px; font-weight: bold; margin-top: 15px;">
 											<?php echo $value->getTitulo(); ?>
 										</a>
 									</div>
